@@ -1,0 +1,14 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Tooling
+node_modules/
+.vscode/
+.idea/
+
+# Secrets — never commit these
+.env
+.env.local
+*.pem
